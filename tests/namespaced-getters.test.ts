@@ -4,7 +4,7 @@ import {shallowMount} from '@vue/test-utils';
 
 import {getLocalVue} from './utils/local-vue';
 import {useNamespacedGetters} from '../src/namespaced';
-import {watch} from '@vue/composition-api';
+import {watch} from 'vue';
 
 describe('"useNamespacedGetters" - namespaced store state helpers', () => {
 	let localVue: typeof Vue;

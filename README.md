@@ -1,7 +1,7 @@
 # vuex-composition-helpers
 
-![CI](https://github.com/greenpress/vuex-composition-helpers/workflows/CI/badge.svg?branch=master)
-[![npm version](https://badge.fury.io/js/vuex-composition-helpers.svg)](https://badge.fury.io/js/vuex-composition-helpers)
+This fork is for personal use (be compatible with Vue 2.7 that does not require @vue/composition-api package)
+Feel free to use it, but you should be expecting original repo to update itself to be compatible
 
 A util package to use Vuex with Composition API easily.
 

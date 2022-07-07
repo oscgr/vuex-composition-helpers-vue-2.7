@@ -4,7 +4,7 @@ import {shallowMount} from '@vue/test-utils';
 
 import {getLocalVue} from './utils/local-vue';
 import {useGetters} from '../src/global';
-import {watch, computed} from '@vue/composition-api';
+import {watch, computed} from 'vue';
 
 describe('"useGetters" - global store getters helpers', () => {
 	let localVue: typeof Vue;
