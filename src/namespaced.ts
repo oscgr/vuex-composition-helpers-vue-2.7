@@ -1,5 +1,5 @@
 import {Store} from 'vuex';
-import {computed} from '@vue/composition-api';
+import {computed} from 'vue';
 import {computedGetter, getAction, getMutation, getStoreFromInstance, useMapping, KnownKeys, RefTypes, ExtractTypes, ExtractGetterTypes, Nullish} from './util';
 import {useActions, useState, useGetters, useMutations} from './global'
 
